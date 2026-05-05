@@ -5,7 +5,7 @@ import './App.css'
 import './index.css'
 function App() {
   const [color, setcolor] = useState("black")
-  
+
   return (
     <div>
       <div  className='w-full h-full flex justify-end items-end ' style={{backgroundColor:color}} >
